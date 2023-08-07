@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gainprox Core
+Comment=Gainprox P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Gainprox peer-to-peer Netzwerk
+Comment[fr]=Gainprox, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Gainprox, eşten eşe kriptografik sanal para birimi
+Exec=gainprox-qt %u
+Terminal=false
+Type=Application
+Icon=gainprox128
+MimeType=x-scheme-handler/gainprox;
+Categories=Office;Finance;

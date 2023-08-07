@@ -1,0 +1,22 @@
+[Unit]
+Description=Gainprox's distributed currency daemon
+After=network.target
+
+[Service]
+User=gainproxcore
+Group=gainproxcore
+
+Type=forking
+PIDFile=/var/lib/gainproxd/gainproxd.pid
+ExecStart=/usr/bin/gainproxd -daemon -pid=/var/lib/gainproxd/gainproxd.pid \
+-conf=/etc/gainproxcore/gainprox.conf -datadir=/var/lib/gainproxd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

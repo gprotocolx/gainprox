@@ -1,0 +1,6 @@
+usr/local/bin/gainprox-qt usr/bin
+share/pixmaps/gainprox32.xpm usr/share/pixmaps
+share/pixmaps/gainprox16.xpm usr/share/pixmaps
+share/pixmaps/gainprox128.png usr/share/pixmaps
+debian/gainprox-qt.desktop usr/share/applications
+debian/gainprox-qt.protocol usr/share/kde4/services/

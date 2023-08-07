@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/gainprox_ar.qm</file>
+        <file alias="bg">locale/gainprox_bg.qm</file>
+        <file alias="de">locale/gainprox_de.qm</file>
+        <file alias="en">locale/gainprox_en.qm</file>
+        <file alias="es">locale/gainprox_es.qm</file>
+        <file alias="fi">locale/gainprox_fi.qm</file>
+        <file alias="fr">locale/gainprox_fr.qm</file>
+        <file alias="it">locale/gainprox_it.qm</file>
+        <file alias="ja">locale/gainprox_ja.qm</file>
+        <file alias="ko">locale/gainprox_ko.qm</file>
+        <file alias="nl">locale/gainprox_nl.qm</file>
+        <file alias="pl">locale/gainprox_pl.qm</file>
+        <file alias="pt">locale/gainprox_pt.qm</file>
+        <file alias="ro">locale/gainprox_ro.qm</file>
+        <file alias="ru">locale/gainprox_ru.qm</file>
+        <file alias="sk">locale/gainprox_sk.qm</file>
+        <file alias="th">locale/gainprox_th.qm</file>
+        <file alias="tr">locale/gainprox_tr.qm</file>
+        <file alias="vi">locale/gainprox_vi.qm</file>
+        <file alias="zh_CN">locale/gainprox_zh_CN.qm</file>
+        <file alias="zh_TW">locale/gainprox_zh_TW.qm</file>
+    </qresource>
+</RCC>
